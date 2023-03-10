@@ -1,9 +1,12 @@
+using ContosoCrafts.WebSite.Models;
 using ContosoCrafts.WebSite.Services;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddControllers();
 builder.Services.AddTransient<JsonFileProductService>();
 
 var app = builder.Build();
@@ -22,6 +25,12 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapRazorPages();
+    endpoints.MapControllers();
+});
 
 app.MapRazorPages();
 

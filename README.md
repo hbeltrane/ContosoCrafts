@@ -8,5 +8,5 @@ This course was created by Microsoft.NET. We are pleased to host this training i
 
 - [Introducing ASP.NET Core](https://www.linkedin.com/learning/introducing-asp-dot-net-core/what-is-asp-dot-net)
 
-- [ASP.NET Tutorial](https://dotnet.microsoft.com/learn/aspnet/hello-world-tutorial/intro)
+- [ASP.NET Core 101](https://learn.microsoft.com/en-ca/shows/aspnet-core-101/aspnet-making-an-aspnet-core-website-2-of-13)
 
