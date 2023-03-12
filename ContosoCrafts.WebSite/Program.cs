@@ -1,6 +1,4 @@
-using ContosoCrafts.WebSite.Models;
 using ContosoCrafts.WebSite.Services;
-using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
